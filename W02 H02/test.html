@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<title>State of mind</title>
+	
+</head>
+<<body background="Images/First Page.png">>
+
+<audio id="myTune" loop="loop">
+<source src="Sounds/Sound_1.ogg" type="audio/mpeg">
+</audio>
+
+<audio id="myTune2" loop="loop">
+<source src="Sounds/Sound_2.ogg" type="audio/mpeg">
+</audio>
+
+
+<button style="position: absolute; left: 35%; right: 20%; bottom: 5%;" onclick="mySanity()">Sanity</button>
+
+<button style="position: absolute; left: 42%; right: 20%; bottom: 5%;" onclick="myBerserk()">Berserk</button>
+
+<script>
+
+
+function mySanity()
+{
+  
+		document.getElementById('myTune').play()
+  
+		document.body.style.backgroundImage="url(Images/Gif-Image-1.gif)";
+
+
+
+}
+
+
+
+function myBerserk()
+
+{
+
+		document.getElementById('myTune2').play()
+
+		document.body.style.backgroundImage="url(Images/Gif-Image-2.gif)";
+		
+}
+
+</script>
+</body>
+</html>
