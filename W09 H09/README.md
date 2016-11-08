@@ -1,0 +1,1 @@
+The following is code for particle explosion. Multiple colours burst out from a single point.
