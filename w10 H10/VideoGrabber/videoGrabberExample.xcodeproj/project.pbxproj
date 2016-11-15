@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D376B781DDBC85800CC0F29 /* ftDrawForce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B2B1DDBC85800CC0F29 /* ftDrawForce.cpp */; };
+		1D376B791DDBC85800CC0F29 /* ftDrawMouseForces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B2E1DDBC85800CC0F29 /* ftDrawMouseForces.cpp */; };
+		1D376B7A1DDBC85800CC0F29 /* ftFluidSimulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B3C1DDBC85800CC0F29 /* ftFluidSimulation.cpp */; };
+		1D376B7B1DDBC85800CC0F29 /* ftVelocityMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B481DDBC85800CC0F29 /* ftVelocityMask.cpp */; };
+		1D376B7C1DDBC85800CC0F29 /* ftOpticalFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B4D1DDBC85800CC0F29 /* ftOpticalFlow.cpp */; };
+		1D376B7D1DDBC85800CC0F29 /* ftParticleFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B551DDBC85800CC0F29 /* ftParticleFlow.cpp */; };
+		1D376B7E1DDBC85800CC0F29 /* ftSvAverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B581DDBC85800CC0F29 /* ftSvAverage.cpp */; };
+		1D376B7F1DDBC85800CC0F29 /* ftAverageVelocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B611DDBC85800CC0F29 /* ftAverageVelocity.cpp */; };
+		1D376B931DDBC98600CC0F29 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B821DDBC98600CC0F29 /* ofxBaseGui.cpp */; };
+		1D376B941DDBC98600CC0F29 /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B841DDBC98600CC0F29 /* ofxButton.cpp */; };
+		1D376B951DDBC98600CC0F29 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B871DDBC98600CC0F29 /* ofxGuiGroup.cpp */; };
+		1D376B961DDBC98600CC0F29 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B891DDBC98600CC0F29 /* ofxLabel.cpp */; };
+		1D376B971DDBC98600CC0F29 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B8B1DDBC98600CC0F29 /* ofxPanel.cpp */; };
+		1D376B981DDBC98600CC0F29 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B8D1DDBC98600CC0F29 /* ofxSlider.cpp */; };
+		1D376B991DDBC98600CC0F29 /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B8F1DDBC98600CC0F29 /* ofxSliderGroup.cpp */; };
+		1D376B9A1DDBC98600CC0F29 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D376B911DDBC98600CC0F29 /* ofxToggle.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D376B2B1DDBC85800CC0F29 /* ftDrawForce.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftDrawForce.cpp; sourceTree = "<group>"; };
+		1D376B2C1DDBC85800CC0F29 /* ftDrawForce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDrawForce.h; sourceTree = "<group>"; };
+		1D376B2D1DDBC85800CC0F29 /* ftDrawForceShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDrawForceShader.h; sourceTree = "<group>"; };
+		1D376B2E1DDBC85800CC0F29 /* ftDrawMouseForces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftDrawMouseForces.cpp; sourceTree = "<group>"; };
+		1D376B2F1DDBC85800CC0F29 /* ftDrawMouseForces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDrawMouseForces.h; sourceTree = "<group>"; };
+		1D376B311DDBC85800CC0F29 /* ftContrastShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftContrastShader.h; sourceTree = "<group>"; };
+		1D376B321DDBC85800CC0F29 /* ftDecayShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDecayShader.h; sourceTree = "<group>"; };
+		1D376B331DDBC85800CC0F29 /* ftEOGShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftEOGShader.h; sourceTree = "<group>"; };
+		1D376B341DDBC85800CC0F29 /* ftGaussianBlurShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftGaussianBlurShader.h; sourceTree = "<group>"; };
+		1D376B351DDBC85800CC0F29 /* ftHSLShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftHSLShader.h; sourceTree = "<group>"; };
+		1D376B361DDBC85800CC0F29 /* ftLuminanceShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftLuminanceShader.h; sourceTree = "<group>"; };
+		1D376B371DDBC85800CC0F29 /* ftTimeBlurShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftTimeBlurShader.h; sourceTree = "<group>"; };
+		1D376B391DDBC85800CC0F29 /* ftAdvectShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftAdvectShader.h; sourceTree = "<group>"; };
+		1D376B3A1DDBC85800CC0F29 /* ftDiffuseShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDiffuseShader.h; sourceTree = "<group>"; };
+		1D376B3B1DDBC85800CC0F29 /* ftDivergenceShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDivergenceShader.h; sourceTree = "<group>"; };
+		1D376B3C1DDBC85800CC0F29 /* ftFluidSimulation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftFluidSimulation.cpp; sourceTree = "<group>"; };
+		1D376B3D1DDBC85800CC0F29 /* ftFluidSimulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftFluidSimulation.h; sourceTree = "<group>"; };
+		1D376B3E1DDBC85800CC0F29 /* ftJacobiShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftJacobiShader.h; sourceTree = "<group>"; };
+		1D376B3F1DDBC85800CC0F29 /* ftSmokeBuoyancyShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSmokeBuoyancyShader.h; sourceTree = "<group>"; };
+		1D376B401DDBC85800CC0F29 /* ftSubstractGradientShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSubstractGradientShader.h; sourceTree = "<group>"; };
+		1D376B411DDBC85800CC0F29 /* ftVorticityFirstPassShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVorticityFirstPassShader.h; sourceTree = "<group>"; };
+		1D376B421DDBC85800CC0F29 /* ftVorticitySecondPassShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVorticitySecondPassShader.h; sourceTree = "<group>"; };
+		1D376B431DDBC85800CC0F29 /* ftFbo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftFbo.h; sourceTree = "<group>"; };
+		1D376B441DDBC85800CC0F29 /* ftShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftShader.h; sourceTree = "<group>"; };
+		1D376B451DDBC85800CC0F29 /* ftSwapBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSwapBuffer.h; sourceTree = "<group>"; };
+		1D376B461DDBC85800CC0F29 /* ftSwapFbo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSwapFbo.h; sourceTree = "<group>"; };
+		1D376B481DDBC85800CC0F29 /* ftVelocityMask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftVelocityMask.cpp; sourceTree = "<group>"; };
+		1D376B491DDBC85800CC0F29 /* ftVelocityMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocityMask.h; sourceTree = "<group>"; };
+		1D376B4A1DDBC85800CC0F29 /* ftVelocityMaskShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocityMaskShader.h; sourceTree = "<group>"; };
+		1D376B4B1DDBC85800CC0F29 /* ofxFlowTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxFlowTools.h; sourceTree = "<group>"; };
+		1D376B4D1DDBC85800CC0F29 /* ftOpticalFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftOpticalFlow.cpp; sourceTree = "<group>"; };
+		1D376B4E1DDBC85800CC0F29 /* ftOpticalFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftOpticalFlow.h; sourceTree = "<group>"; };
+		1D376B4F1DDBC85800CC0F29 /* ftOpticalFlowShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftOpticalFlowShader.h; sourceTree = "<group>"; };
+		1D376B511DDBC85800CC0F29 /* ftAgeLifespanMassSizeParticleShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftAgeLifespanMassSizeParticleShader.h; sourceTree = "<group>"; };
+		1D376B521DDBC85800CC0F29 /* ftDrawParticleShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDrawParticleShader.h; sourceTree = "<group>"; };
+		1D376B531DDBC85800CC0F29 /* ftInitPositionShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftInitPositionShader.h; sourceTree = "<group>"; };
+		1D376B541DDBC85800CC0F29 /* ftMoveParticleShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftMoveParticleShader.h; sourceTree = "<group>"; };
+		1D376B551DDBC85800CC0F29 /* ftParticleFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftParticleFlow.cpp; sourceTree = "<group>"; };
+		1D376B561DDBC85800CC0F29 /* ftParticleFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftParticleFlow.h; sourceTree = "<group>"; };
+		1D376B581DDBC85800CC0F29 /* ftSvAverage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftSvAverage.cpp; sourceTree = "<group>"; };
+		1D376B591DDBC85800CC0F29 /* ftSvAverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvAverage.h; sourceTree = "<group>"; };
+		1D376B5A1DDBC85800CC0F29 /* ftSvDisplayScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvDisplayScalar.h; sourceTree = "<group>"; };
+		1D376B5B1DDBC85800CC0F29 /* ftSvDisplayScalarShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvDisplayScalarShader.h; sourceTree = "<group>"; };
+		1D376B5C1DDBC85800CC0F29 /* ftSvField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvField.h; sourceTree = "<group>"; };
+		1D376B5D1DDBC85800CC0F29 /* ftSvFieldShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvFieldShader.h; sourceTree = "<group>"; };
+		1D376B5E1DDBC85800CC0F29 /* ftSvFromVelocityShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftSvFromVelocityShader.h; sourceTree = "<group>"; };
+		1D376B601DDBC85800CC0F29 /* ftAddForceShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftAddForceShader.h; sourceTree = "<group>"; };
+		1D376B611DDBC85800CC0F29 /* ftAverageVelocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftAverageVelocity.cpp; sourceTree = "<group>"; };
+		1D376B621DDBC85800CC0F29 /* ftAverageVelocity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftAverageVelocity.h; sourceTree = "<group>"; };
+		1D376B631DDBC85800CC0F29 /* ftClampLengthShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftClampLengthShader.h; sourceTree = "<group>"; };
+		1D376B641DDBC85800CC0F29 /* ftDensityFloatMultiplier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDensityFloatMultiplier.h; sourceTree = "<group>"; };
+		1D376B651DDBC85800CC0F29 /* ftDensityVec2Multiplier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDensityVec2Multiplier.h; sourceTree = "<group>"; };
+		1D376B661DDBC85800CC0F29 /* ftEaseShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftEaseShader.h; sourceTree = "<group>"; };
+		1D376B671DDBC85800CC0F29 /* ftNormalizationShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftNormalizationShader.h; sourceTree = "<group>"; };
+		1D376B681DDBC85800CC0F29 /* ftRedToLuminanceShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftRedToLuminanceShader.h; sourceTree = "<group>"; };
+		1D376B691DDBC85800CC0F29 /* ftToScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftToScalar.h; sourceTree = "<group>"; };
+		1D376B6A1DDBC85800CC0F29 /* ftToScalarShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftToScalarShader.h; sourceTree = "<group>"; };
+		1D376B6C1DDBC85800CC0F29 /* ftDisplayScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDisplayScalar.h; sourceTree = "<group>"; };
+		1D376B6D1DDBC85800CC0F29 /* ftDisplayScalarShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftDisplayScalarShader.h; sourceTree = "<group>"; };
+		1D376B6E1DDBC85800CC0F29 /* ftPressureField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftPressureField.h; sourceTree = "<group>"; };
+		1D376B6F1DDBC85800CC0F29 /* ftPressureFieldShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftPressureFieldShader.h; sourceTree = "<group>"; };
+		1D376B701DDBC85800CC0F29 /* ftTemperatureField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftTemperatureField.h; sourceTree = "<group>"; };
+		1D376B711DDBC85800CC0F29 /* ftTemperatureFieldShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftTemperatureFieldShader.h; sourceTree = "<group>"; };
+		1D376B721DDBC85800CC0F29 /* ftVelocityField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocityField.h; sourceTree = "<group>"; };
+		1D376B731DDBC85800CC0F29 /* ftVelocityFieldShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocityFieldShader.h; sourceTree = "<group>"; };
+		1D376B741DDBC85800CC0F29 /* ftVelocitySpheres.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocitySpheres.h; sourceTree = "<group>"; };
+		1D376B751DDBC85800CC0F29 /* ftVelocitySpheresShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVelocitySpheresShader.h; sourceTree = "<group>"; };
+		1D376B761DDBC85800CC0F29 /* ftVTField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVTField.h; sourceTree = "<group>"; };
+		1D376B771DDBC85800CC0F29 /* ftVTFieldShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftVTFieldShader.h; sourceTree = "<group>"; };
+		1D376B821DDBC98600CC0F29 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxBaseGui.cpp; sourceTree = "<group>"; };
+		1D376B831DDBC98600CC0F29 /* ofxBaseGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxBaseGui.h; sourceTree = "<group>"; };
+		1D376B841DDBC98600CC0F29 /* ofxButton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxButton.cpp; sourceTree = "<group>"; };
+		1D376B851DDBC98600CC0F29 /* ofxButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxButton.h; sourceTree = "<group>"; };
+		1D376B861DDBC98600CC0F29 /* ofxGui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGui.h; sourceTree = "<group>"; };
+		1D376B871DDBC98600CC0F29 /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxGuiGroup.cpp; sourceTree = "<group>"; };
+		1D376B881DDBC98600CC0F29 /* ofxGuiGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxGuiGroup.h; sourceTree = "<group>"; };
+		1D376B891DDBC98600CC0F29 /* ofxLabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxLabel.cpp; sourceTree = "<group>"; };
+		1D376B8A1DDBC98600CC0F29 /* ofxLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxLabel.h; sourceTree = "<group>"; };
+		1D376B8B1DDBC98600CC0F29 /* ofxPanel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxPanel.cpp; sourceTree = "<group>"; };
+		1D376B8C1DDBC98600CC0F29 /* ofxPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxPanel.h; sourceTree = "<group>"; };
+		1D376B8D1DDBC98600CC0F29 /* ofxSlider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSlider.cpp; sourceTree = "<group>"; };
+		1D376B8E1DDBC98600CC0F29 /* ofxSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSlider.h; sourceTree = "<group>"; };
+		1D376B8F1DDBC98600CC0F29 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSliderGroup.cpp; sourceTree = "<group>"; };
+		1D376B901DDBC98600CC0F29 /* ofxSliderGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxSliderGroup.h; sourceTree = "<group>"; };
+		1D376B911DDBC98600CC0F29 /* ofxToggle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxToggle.cpp; sourceTree = "<group>"; };
+		1D376B921DDBC98600CC0F29 /* ofxToggle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxToggle.h; sourceTree = "<group>"; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* videoGrabberExampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoGrabberExampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D376B281DDBC85800CC0F29 /* ofxFlowTools-master */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B291DDBC85800CC0F29 /* src */,
+			);
+			name = "ofxFlowTools-master";
+			sourceTree = "<group>";
+		};
+		1D376B291DDBC85800CC0F29 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B2A1DDBC85800CC0F29 /* drawforces */,
+				1D376B301DDBC85800CC0F29 /* filters */,
+				1D376B381DDBC85800CC0F29 /* fluid */,
+				1D376B431DDBC85800CC0F29 /* ftFbo.h */,
+				1D376B441DDBC85800CC0F29 /* ftShader.h */,
+				1D376B451DDBC85800CC0F29 /* ftSwapBuffer.h */,
+				1D376B461DDBC85800CC0F29 /* ftSwapFbo.h */,
+				1D376B471DDBC85800CC0F29 /* mask */,
+				1D376B4B1DDBC85800CC0F29 /* ofxFlowTools.h */,
+				1D376B4C1DDBC85800CC0F29 /* opticalflow */,
+				1D376B501DDBC85800CC0F29 /* particles */,
+				1D376B571DDBC85800CC0F29 /* splitvelocity */,
+				1D376B5F1DDBC85800CC0F29 /* tools */,
+				1D376B6B1DDBC85800CC0F29 /* visualisation */,
+			);
+			name = src;
+			path = "../../../addons/ofxFlowTools-master/src";
+			sourceTree = "<group>";
+		};
+		1D376B2A1DDBC85800CC0F29 /* drawforces */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B2B1DDBC85800CC0F29 /* ftDrawForce.cpp */,
+				1D376B2C1DDBC85800CC0F29 /* ftDrawForce.h */,
+				1D376B2D1DDBC85800CC0F29 /* ftDrawForceShader.h */,
+				1D376B2E1DDBC85800CC0F29 /* ftDrawMouseForces.cpp */,
+				1D376B2F1DDBC85800CC0F29 /* ftDrawMouseForces.h */,
+			);
+			path = drawforces;
+			sourceTree = "<group>";
+		};
+		1D376B301DDBC85800CC0F29 /* filters */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B311DDBC85800CC0F29 /* ftContrastShader.h */,
+				1D376B321DDBC85800CC0F29 /* ftDecayShader.h */,
+				1D376B331DDBC85800CC0F29 /* ftEOGShader.h */,
+				1D376B341DDBC85800CC0F29 /* ftGaussianBlurShader.h */,
+				1D376B351DDBC85800CC0F29 /* ftHSLShader.h */,
+				1D376B361DDBC85800CC0F29 /* ftLuminanceShader.h */,
+				1D376B371DDBC85800CC0F29 /* ftTimeBlurShader.h */,
+			);
+			path = filters;
+			sourceTree = "<group>";
+		};
+		1D376B381DDBC85800CC0F29 /* fluid */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B391DDBC85800CC0F29 /* ftAdvectShader.h */,
+				1D376B3A1DDBC85800CC0F29 /* ftDiffuseShader.h */,
+				1D376B3B1DDBC85800CC0F29 /* ftDivergenceShader.h */,
+				1D376B3C1DDBC85800CC0F29 /* ftFluidSimulation.cpp */,
+				1D376B3D1DDBC85800CC0F29 /* ftFluidSimulation.h */,
+				1D376B3E1DDBC85800CC0F29 /* ftJacobiShader.h */,
+				1D376B3F1DDBC85800CC0F29 /* ftSmokeBuoyancyShader.h */,
+				1D376B401DDBC85800CC0F29 /* ftSubstractGradientShader.h */,
+				1D376B411DDBC85800CC0F29 /* ftVorticityFirstPassShader.h */,
+				1D376B421DDBC85800CC0F29 /* ftVorticitySecondPassShader.h */,
+			);
+			path = fluid;
+			sourceTree = "<group>";
+		};
+		1D376B471DDBC85800CC0F29 /* mask */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B481DDBC85800CC0F29 /* ftVelocityMask.cpp */,
+				1D376B491DDBC85800CC0F29 /* ftVelocityMask.h */,
+				1D376B4A1DDBC85800CC0F29 /* ftVelocityMaskShader.h */,
+			);
+			path = mask;
+			sourceTree = "<group>";
+		};
+		1D376B4C1DDBC85800CC0F29 /* opticalflow */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B4D1DDBC85800CC0F29 /* ftOpticalFlow.cpp */,
+				1D376B4E1DDBC85800CC0F29 /* ftOpticalFlow.h */,
+				1D376B4F1DDBC85800CC0F29 /* ftOpticalFlowShader.h */,
+			);
+			path = opticalflow;
+			sourceTree = "<group>";
+		};
+		1D376B501DDBC85800CC0F29 /* particles */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B511DDBC85800CC0F29 /* ftAgeLifespanMassSizeParticleShader.h */,
+				1D376B521DDBC85800CC0F29 /* ftDrawParticleShader.h */,
+				1D376B531DDBC85800CC0F29 /* ftInitPositionShader.h */,
+				1D376B541DDBC85800CC0F29 /* ftMoveParticleShader.h */,
+				1D376B551DDBC85800CC0F29 /* ftParticleFlow.cpp */,
+				1D376B561DDBC85800CC0F29 /* ftParticleFlow.h */,
+			);
+			path = particles;
+			sourceTree = "<group>";
+		};
+		1D376B571DDBC85800CC0F29 /* splitvelocity */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B581DDBC85800CC0F29 /* ftSvAverage.cpp */,
+				1D376B591DDBC85800CC0F29 /* ftSvAverage.h */,
+				1D376B5A1DDBC85800CC0F29 /* ftSvDisplayScalar.h */,
+				1D376B5B1DDBC85800CC0F29 /* ftSvDisplayScalarShader.h */,
+				1D376B5C1DDBC85800CC0F29 /* ftSvField.h */,
+				1D376B5D1DDBC85800CC0F29 /* ftSvFieldShader.h */,
+				1D376B5E1DDBC85800CC0F29 /* ftSvFromVelocityShader.h */,
+			);
+			path = splitvelocity;
+			sourceTree = "<group>";
+		};
+		1D376B5F1DDBC85800CC0F29 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B601DDBC85800CC0F29 /* ftAddForceShader.h */,
+				1D376B611DDBC85800CC0F29 /* ftAverageVelocity.cpp */,
+				1D376B621DDBC85800CC0F29 /* ftAverageVelocity.h */,
+				1D376B631DDBC85800CC0F29 /* ftClampLengthShader.h */,
+				1D376B641DDBC85800CC0F29 /* ftDensityFloatMultiplier.h */,
+				1D376B651DDBC85800CC0F29 /* ftDensityVec2Multiplier.h */,
+				1D376B661DDBC85800CC0F29 /* ftEaseShader.h */,
+				1D376B671DDBC85800CC0F29 /* ftNormalizationShader.h */,
+				1D376B681DDBC85800CC0F29 /* ftRedToLuminanceShader.h */,
+				1D376B691DDBC85800CC0F29 /* ftToScalar.h */,
+				1D376B6A1DDBC85800CC0F29 /* ftToScalarShader.h */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		1D376B6B1DDBC85800CC0F29 /* visualisation */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B6C1DDBC85800CC0F29 /* ftDisplayScalar.h */,
+				1D376B6D1DDBC85800CC0F29 /* ftDisplayScalarShader.h */,
+				1D376B6E1DDBC85800CC0F29 /* ftPressureField.h */,
+				1D376B6F1DDBC85800CC0F29 /* ftPressureFieldShader.h */,
+				1D376B701DDBC85800CC0F29 /* ftTemperatureField.h */,
+				1D376B711DDBC85800CC0F29 /* ftTemperatureFieldShader.h */,
+				1D376B721DDBC85800CC0F29 /* ftVelocityField.h */,
+				1D376B731DDBC85800CC0F29 /* ftVelocityFieldShader.h */,
+				1D376B741DDBC85800CC0F29 /* ftVelocitySpheres.h */,
+				1D376B751DDBC85800CC0F29 /* ftVelocitySpheresShader.h */,
+				1D376B761DDBC85800CC0F29 /* ftVTField.h */,
+				1D376B771DDBC85800CC0F29 /* ftVTFieldShader.h */,
+			);
+			path = visualisation;
+			sourceTree = "<group>";
+		};
+		1D376B801DDBC98600CC0F29 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B811DDBC98600CC0F29 /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		1D376B811DDBC98600CC0F29 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B821DDBC98600CC0F29 /* ofxBaseGui.cpp */,
+				1D376B831DDBC98600CC0F29 /* ofxBaseGui.h */,
+				1D376B841DDBC98600CC0F29 /* ofxButton.cpp */,
+				1D376B851DDBC98600CC0F29 /* ofxButton.h */,
+				1D376B861DDBC98600CC0F29 /* ofxGui.h */,
+				1D376B871DDBC98600CC0F29 /* ofxGuiGroup.cpp */,
+				1D376B881DDBC98600CC0F29 /* ofxGuiGroup.h */,
+				1D376B891DDBC98600CC0F29 /* ofxLabel.cpp */,
+				1D376B8A1DDBC98600CC0F29 /* ofxLabel.h */,
+				1D376B8B1DDBC98600CC0F29 /* ofxPanel.cpp */,
+				1D376B8C1DDBC98600CC0F29 /* ofxPanel.h */,
+				1D376B8D1DDBC98600CC0F29 /* ofxSlider.cpp */,
+				1D376B8E1DDBC98600CC0F29 /* ofxSlider.h */,
+				1D376B8F1DDBC98600CC0F29 /* ofxSliderGroup.cpp */,
+				1D376B901DDBC98600CC0F29 /* ofxSliderGroup.h */,
+				1D376B911DDBC98600CC0F29 /* ofxToggle.cpp */,
+				1D376B921DDBC98600CC0F29 /* ofxToggle.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxGui/src;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				1D376B281DDBC85800CC0F29 /* ofxFlowTools-master */,
+				1D376B801DDBC98600CC0F29 /* ofxGui */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* videoGrabberExampleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* videoGrabberExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "videoGrabberExample" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = videoGrabberExample;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* videoGrabberExampleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "videoGrabberExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* videoGrabberExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D376B7F1DDBC85800CC0F29 /* ftAverageVelocity.cpp in Sources */,
+				1D376B7E1DDBC85800CC0F29 /* ftSvAverage.cpp in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				1D376B7D1DDBC85800CC0F29 /* ftParticleFlow.cpp in Sources */,
+				1D376B961DDBC98600CC0F29 /* ofxLabel.cpp in Sources */,
+				1D376B791DDBC85800CC0F29 /* ftDrawMouseForces.cpp in Sources */,
+				1D376B781DDBC85800CC0F29 /* ftDrawForce.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				1D376B971DDBC98600CC0F29 /* ofxPanel.cpp in Sources */,
+				1D376B941DDBC98600CC0F29 /* ofxButton.cpp in Sources */,
+				1D376B7B1DDBC85800CC0F29 /* ftVelocityMask.cpp in Sources */,
+				1D376B9A1DDBC98600CC0F29 /* ofxToggle.cpp in Sources */,
+				1D376B951DDBC98600CC0F29 /* ofxGuiGroup.cpp in Sources */,
+				1D376B991DDBC98600CC0F29 /* ofxSliderGroup.cpp in Sources */,
+				1D376B7A1DDBC85800CC0F29 /* ftFluidSimulation.cpp in Sources */,
+				1D376B931DDBC98600CC0F29 /* ofxBaseGui.cpp in Sources */,
+				1D376B981DDBC98600CC0F29 /* ofxSlider.cpp in Sources */,
+				1D376B7C1DDBC85800CC0F29 /* ftOpticalFlow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "videoGrabberExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "videoGrabberExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
